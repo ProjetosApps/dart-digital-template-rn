@@ -5,6 +5,7 @@ export const Types = {
   SIGN_UP_SUCCESS: '@auth/SIGN_UP_SUCCESS',
   SIGN_FAILURE: '@auth/SIGN_FAILURE',
   SIGN_OUT: '@auth/SIGN_OUT',
+  USER_APP_SUCESS: '@auth/USER_APP_SUCESS',
 };
 
 export function signInRequest(email, password) {
@@ -18,6 +19,13 @@ export function signInSuccess(token, user) {
   return {
     type: Types.SIGN_IN_SUCCESS,
     payload: {token, user},
+  };
+}
+
+export function userAppSuccess(name) {
+  return {
+    type: Types.USER_APP_SUCESS,
+    payload: {name},
   };
 }
 

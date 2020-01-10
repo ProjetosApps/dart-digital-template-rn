@@ -1,9 +1,7 @@
-import {colors, fonts} from '../../styles';
 import styled from 'styled-components/native';
+import {fonts} from '../../styles';
 
-import {BaseButton} from 'react-native-gesture-handler';
-
-export const ContainerButton = styled(BaseButton)`
+export const ContainerButton = styled.TouchableOpacity`
   flex: 1;
   height: 42px;
   overflow: hidden;

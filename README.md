@@ -36,6 +36,20 @@ Com isso o projeto será criado com todas as dependências do template devidamen
 
 ---
 
+3. Rodar os seguintes comandos:
+
+```sh
+yarn add react-navigation-stack @react-native-community/masked-view
+```
+
+ou
+
+```sh
+npm install react-navigation-stack @react-native-community/masked-view
+```
+
+---
+
 #### Passo Adicional no Android
 
 Para que os gestos sejam habilitados no Android é necessário um passo a mais, que é bem simples, abra o arquivo `android/app/src/main/java/<pacote_do_projeto>/MainActivity.java`, e comece importando os pacotes como abaixo:
