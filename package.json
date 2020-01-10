@@ -1,4 +1,17 @@
 {
-  "name": "react-native-template-dart-digital",
-  "version": "0.0.1"
+  "name": "react-native-template-dart-digital-rn-template",
+  "version": "0.0.2",
+  "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Prettier + Babel Plugin Root Import, React Navigation, Redux, Redux Saga, Reactotron e Axios configurados.",
+  "keywords": [
+    "react-native",
+    "template",
+    "rocketseat",
+    "eslint",
+    "react-navigation",
+    "reactotron",
+    "babel-root-import",
+    "axios",
+    "redux",
+    "redux-saga"
+  ]
 }
