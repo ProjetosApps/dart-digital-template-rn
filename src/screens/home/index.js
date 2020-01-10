@@ -5,8 +5,20 @@ import { ContainerDefault } from '../../components';
 
 export default function Home({ navigation }) {
   return (
-    <ContainerDefault>
-      <Text>Home</Text>
+    <ContainerDefault
+      style={{
+        flex: 1,
+        alignItems: 'center',
+        backgroundColor: 'red',
+        justifyContent: 'center',
+      }}
+    >
+      <Text
+        onPress={() => navigation.navigate('Login')}
+        style={{ fontSize: 18, fontWeight: 'bold', color: '#FFF' }}
+      >
+        Home
+      </Text>
     </ContainerDefault>
   );
 }
