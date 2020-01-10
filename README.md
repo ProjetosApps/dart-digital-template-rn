@@ -76,4 +76,15 @@ public class MainActivity extends ReactActivity {
 }
 ```
 
----
+#### Rodar o App
+
+1. Rodar o seguinte comando:
+
+```sh
+react-native run-android
+```
+ou 
+
+```sh
+react-native run-ios
+```
