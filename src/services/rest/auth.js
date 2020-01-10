@@ -2,12 +2,8 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-community/async-storage';
 
 export const apiSSO = axios.create({
-  baseURL: 'https://zipfarma-sso.azurewebsites.net/api',
+  baseURL: ' ',
 });
-
-export const loginRequest = (login, password) => {
-  return apiSSO.post('');
-};
 
 // Função para salvar credencias do usuário
 export const setDataUser = USER_DATA =>

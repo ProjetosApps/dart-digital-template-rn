@@ -1,14 +1,15 @@
 import AsyncStorage from '@react-native-community/async-storage';
-import {persistReducer} from 'redux-persist';
+import { persistReducer } from 'redux-persist';
+import Strings from '../util/strings';
 
 export default reducers => {
   const persistedReducer = persistReducer(
     {
-      key: 'zipfarma',
+      key: `${Strings.PERSIST_KEY}`,
       storage: AsyncStorage,
-      whitelist: ['auth', 'user'],
+      whitelist: ['auth'],
     },
-    reducers,
+    reducers
   );
 
   return persistedReducer;
